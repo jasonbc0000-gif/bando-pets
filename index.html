@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fafaf8">
+  <meta name="description" content="伴度 BANDO，为犬只骑跨行为探索更体贴的玩具设计。了解产品理念、适配思路与日常使用指南。">
+  <title>伴度 BANDO — 本能，也值得被善待</title>
+  <link rel="icon" type="image/png" href="assets/bando-symbol.png">
+  <link rel="apple-touch-icon" href="assets/bando-symbol.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header">
+    <a class="wordmark" href="#" aria-label="伴度 BANDO 首页"><img class="brand-symbol" src="assets/bando-symbol.png" width="48" height="48" alt="">bando<span>伴度</span></a>
+    <nav class="desktop-nav" aria-label="主导航">
+      <a href="#design">产品设计</a><a href="#care">相处指南</a><a href="#questions">常见问题</a>
+    </nav>
+    <button class="nav-button" data-open-guide>使用前须知</button>
+    <button class="menu-toggle" aria-expanded="false" aria-controls="mobile-nav" aria-label="展开导航"><span></span><span></span></button>
+    <nav id="mobile-nav" class="mobile-nav" aria-label="移动导航" hidden>
+      <a href="#design">产品设计</a><a href="#care">相处指南</a><a href="#questions">常见问题</a><button data-open-guide>适配与选择</button>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">伴度 · 犬用骑跨玩具</p>
+        <h1 id="hero-title">本能，<br>也值得被<span>善待。</span></h1>
+        <p class="hero-description">为犬只骑跨行为设计的专属玩具。<br>主体保留，接触组件每次用后整件丢弃。</p>
+        <div class="hero-actions"><a class="button button-dark" href="#design">认识伴度</a><a class="text-link" href="#care">使用前，先了解它</a></div>
+      </div>
+      <figure class="hero-visual"><img src="assets/companion.webp" width="1536" height="1024" alt="伴度犬形外观概念，图中造型并非最终结构" fetchpriority="high"><figcaption>设计概念 · 尚未发售</figcaption></figure>
+    </section>
+
+    <section class="intro section-pad reveal" aria-labelledby="intro-title">
+      <p class="section-label">从理解开始</p>
+      <h2 id="intro-title">它有它的本能。<br><span>你有你的生活。</span></h2>
+      <p>我们关心的，是这两者如何更好地相处。<br>从它接触的轮廓，到你每次的维护，<br class="mobile-break">都值得被认真考虑。</p>
+    </section>
+
+    <section id="design" class="design section-pad" aria-labelledby="design-title">
+      <div class="section-heading reveal"><h2 id="design-title">简单的外表。<br>细致的考量。</h2><p>围绕接触、支撑与维护，探索伴度的三处设计。</p></div>
+      <div class="design-stage reveal">
+        <div class="product-detail"><img id="detail-image" src="assets/companion.webp" width="1536" height="1024" alt="伴度犬形玩具的外观概念，未展示内部组件" loading="lazy"><span class="detail-caption" id="detail-caption">犬形轮廓 · 细节持续优化</span></div>
+        <div class="design-explainer">
+          <div class="design-tabs" role="tablist" aria-label="探索产品设计">
+            <button id="tab-form" role="tab" aria-selected="true" aria-controls="panel-form" tabindex="0">轮廓</button>
+            <button id="tab-support" role="tab" aria-selected="false" aria-controls="panel-support" tabindex="-1">支撑</button>
+            <button id="tab-care" role="tab" aria-selected="false" aria-controls="panel-care" tabindex="-1">维护</button>
+          </div>
+          <div class="design-panel" id="panel-form" role="tabpanel" aria-labelledby="tab-form"><span class="detail-kicker">外观与外套</span><h3>亲近的轮廓。<br>克制的细节。</h3><p>保留犬形轮廓，继续优化眼鼻、耳尾等容易被咬住的突出部位。外套朝可拆洗、损坏后单独更换的方向开发。</p></div>
+          <div class="design-panel" id="panel-support" role="tabpanel" aria-labelledby="tab-support" hidden><span class="detail-kicker">体型与支撑</span><h3>外形像伙伴。<br>支撑要合适。</h3><p>将身体承托与外层包覆分开考虑。高度、稳固程度与适用体型，将通过样品测试确认；四足造型不等于已经验证的支撑能力。</p></div>
+          <div class="design-panel" id="panel-care" role="tabpanel" aria-labelledby="tab-care" hidden><span class="detail-kicker">一次性接触组件</span><h3>主体保留。<br>接触组件，一次一换。</h3><p>每次用后，接触组件整件丢弃；下一次换用全新组件。主体与连接处仍需检查和维护，具体结构与清洁方式正在验证。</p></div>
+          <button class="text-link dark-link" data-open-guide>了解尺寸与适配</button>
+        </div>
+      </div>
+      <p class="concept-note">产品处于设计与打样阶段。图为外观示意，未展示内部接触组件；耳鼻、支撑与连接结构仍待优化。</p>
+    </section>
+
+    <section class="life section-pad reveal" aria-labelledby="life-title">
+      <figure><img src="assets/together.webp" width="1536" height="1024" alt="阳光下的安静居家场景，一只柴犬自然趴卧在伴度概念玩具旁" loading="lazy"></figure>
+      <div class="life-caption"><h2 id="life-title">融入它的世界。<br><span>也融入你的家。</span></h2><p>不过分打扰，不过度装饰。<br>以柔和的形态，留在日常的角落。</p></div>
+    </section>
+
+    <section id="care" class="care section-pad" aria-labelledby="care-title">
+      <div class="care-intro reveal"><p class="section-label">相处指南</p><h2 id="care-title">给它选择。<br>给彼此空间。</h2><p>玩具是日常照护的一部分。<br>观察它的感受，始终比催促更重要。</p><button class="button button-outline" data-open-guide>打开适配清单</button></div>
+      <div class="care-steps">
+        <article class="care-step reveal"><span class="step-number">01</span><div><h3>先认识，再互动。</h3><p>让狗狗自己闻嗅、接近。不强迫它靠近，也不要求它立刻学会使用。</p></div></article>
+        <article class="care-step reveal"><span class="step-number">02</span><div><h3>陪在旁边，留意反应。</h3><p>初次互动时在旁观察。出现抗拒、过度啃咬或部件松脱时，及时停止。</p></div></article>
+        <article class="care-step reveal"><span class="step-number">03</span><div><h3>用后整件丢弃，再检查主体。</h3><p>弃置整个接触组件，检查主体与连接处是否沾污、磨损或松动。一次性组件不代表主体无需清洁，具体方式以正式说明为准。</p></div></article>
+      </div>
+    </section>
+
+    <section id="questions" class="faq section-pad reveal" aria-labelledby="faq-title">
+      <div><h2 id="faq-title">你可能还想知道。</h2><p>把重要的事，说明白。</p></div>
+      <div class="faq-items">
+        <details><summary>伴度是什么样的玩具？<span aria-hidden="true">+</span></summary><p>伴度是一款面向犬只骑跨行为的模块化玩具设计：主体保留，接触组件每次使用后整件丢弃。它不是医疗器械，也不以治疗或改善行为作为效果承诺。</p></details>
+        <details><summary>哪部分保留，哪部分每次更换？<span aria-hidden="true">+</span></summary><p>当前方案中，主体和连接座重复使用，仍需检查并按说明清洁；外套朝可拆洗、损坏后单独更换的方向开发。接触组件每次使用后整件丢弃，不清洗复用。材料、固定方式和维护流程仍在验证。</p></details>
+        <details><summary>骑跨，就一定与发情有关吗？<span aria-hidden="true">+</span></summary><p>不一定。骑跨也可能与玩耍、兴奋或压力有关，不能只凭一个动作判断原因。观察它在什么情境下发生，更有帮助。<a href="https://healthtopics.vetmed.ucdavis.edu/health-topics/canine/inappropriate-mounting" target="_blank" rel="noopener noreferrer">阅读 UC Davis 兽医学院的解释</a></p></details>
+        <details><summary>它适合所有狗狗吗？<span aria-hidden="true">+</span></summary><p>不会有一款玩具适合所有狗狗。体型、习惯、啃咬方式与接受程度都需要考虑。伴度的适用尺寸尚在验证，请等待正式规格，避免仅按品种或体重做选择。</p></details>
+        <details><summary>它能代替训练或兽医照护吗？<span aria-hidden="true">+</span></summary><p>不能。玩具不能代替日常陪伴、行为训练或医疗照护。如果骑跨频繁到影响生活，或伴随反复舔咬身体等异常，应咨询兽医。<a href="https://www.aspca.org/pet-care/dog-care/common-dog-behavior-issues/mounting-and-masturbation" target="_blank" rel="noopener noreferrer">查看 ASPCA 的行为说明</a></p></details>
+        <details><summary>什么时候可以买到？<span aria-hidden="true">+</span></summary><p>产品仍在设计与打样阶段，尚未开放购买。售价、适用尺寸与具体维护方式，将在样品验证后公布。</p></details>
+      </div>
+    </section>
+
+    <section class="closing section-pad reveal"><p>理解本能，也珍惜陪伴。</p><div class="closing-brand" aria-label="BANDO 伴度"><img class="brand-symbol" src="assets/bando-symbol.png" width="180" height="180" alt="">bando<span>伴度</span></div></section>
+  </main>
+  <footer class="site-footer"><span>© <span id="year">2026</span> 伴度 BANDO</span><p>为犬只设计，为相处考虑。</p><a href="#">回到顶部</a></footer>
+
+  <dialog id="fit-dialog" aria-labelledby="fit-title">
+    <div class="dialog-top"><span>伴度 · 适配与选择</span><button class="dialog-close" aria-label="关闭适配清单">×</button></div>
+    <div class="dialog-content"><h2 id="fit-title">先认识它，<br>再选择玩具。</h2><p>适用尺寸仍在验证。选择前，先了解它的互动习惯与身体状态。</p>
+      <div class="fit-item"><h3>体型与姿势</h3><p>关注骑跨时的高度与姿势是否自然。正式尺寸和支撑范围公布后，再判断是否合适，避免只按品种或体重选择。</p></div>
+      <div class="fit-item"><h3>互动习惯</h3><p>观察它偏好抱住、骑跨还是啃咬。容易拆咬小部件的狗狗，需要特别谨慎。</p></div>
+      <div class="fit-item"><h3>靠近，不等于会用</h3><p>愿意闻嗅、靠近，只是开始。能否自然使用还要观察，不强迫、不扶着它完成；出现抗拒或身体不适，就先停止互动。</p></div>
+      <p class="fit-note">这份清单帮助你观察，不构成适配保证。最终请以产品说明为准。</p>
+      <button class="button button-dark dialog-done">了解了</button>
+    </div>
+  </dialog>
+</body>
+</html>
